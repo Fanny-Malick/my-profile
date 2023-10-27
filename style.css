@@ -1,0 +1,95 @@
+/*Colors and fonts*/
+body {
+	background: : rgb(230,230,230);
+	color: rgb(50,50,50);
+	font-family: Helvetica;
+	font-size:17px;
+}
+
+h1,h2,h3 {
+	font-family: Courier;
+}
+
+h1 {
+	color:red;
+	font-size: 32px;
+}
+h2 {
+	color: green;
+	font-size: 24px;
+	font-weight: lighter;
+}
+
+a:hover {
+	color: purple;
+}
+
+a {
+	text-decoration: none;
+	color : darkcyan;
+	transition : colo 0,3s ease;
+	front-weight: 600;
+	front-size: 14px;
+	front-family: 'Oswald', sans-serif;
+}
+
+/*Desingn with class*/
+
+.container{
+	width: 700px;
+	margin: 50px auto;
+}
+
+@media (max-width : 750px){
+	.container{
+		width: 600px;
+	}
+}
+
+@media (max-width : 500px){
+	.container{
+		width: 400px;
+	}
+}
+
+.card-lavender{
+ 	background-color: lavenderblush;
+ 	padding: 40px;
+ 	border-radius: 5px;
+ 	box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+ 	margin: 20px;
+ }
+
+
+.btn-green{
+	background-color: rgb(123, 78, 59, 1.0);
+	padding: 20px 20px;
+	border-radius: 5px;
+}	
+
+#logo{
+	width: 280px;
+	border-radius: 25%;
+}
+.list-horizontal{
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-horizontal li{
+	display: inline;
+	padding: 10px;
+}
+
+.list-horizontal i{
+	font-size: 50px;
+}
+
+#introduction p {
+	margin-bottom: 40px;
+}
+
+
+
+
+    
